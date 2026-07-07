@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CulturaConnect — Accueil</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">CulturaConnect</a>
+      <nav class="main-nav">
+        <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="apropos.html">L'association</a></li>
+          <li><a href="evenements.html">Événements</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="proposer.html">Proposer un événement</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Faire vivre la culture, ensemble.</h1>
+        <p class="hero-subtitle">
+          CulturaConnect fédère des artistes, des bénévoles et des curieux
+          autour d'événements culturels ouverts à tous.
+        </p>
+        <a href="evenements.html" class="btn btn-primary">Voir les événements à venir</a>
+      </div>
+    </section>
+
+    <section class="upcoming">
+      <div class="container">
+        <h2>Prochains événements</h2>
+        <div id="upcoming-events" class="event-grid">
+          <p class="loading">Chargement des événements...</p>
+        </div>
+        <a href="evenements.html" class="link-more">Voir tous les événements &rarr;</a>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <div>
+          <h2>Une idée d'événement ?</h2>
+          <p>Proposez-le, on étudie chaque suggestion avec l'équipe.</p>
+        </div>
+        <a href="proposer.html" class="btn btn-outline">Proposer un événement</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 CulturaConnect — Association culturelle fictive (projet DSP).</p>
+    </div>
+  </footer>
+
+  <script src="js/events.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>
