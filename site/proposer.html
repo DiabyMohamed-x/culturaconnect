@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CulturaConnect — Proposer un événement</title>
+  <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">CulturaConnect</a>
+      <nav class="main-nav">
+        <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="apropos.html">L'association</a></li>
+          <li><a href="evenements.html">Événements</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="proposer.html" class="active">Proposer un événement</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Proposer un événement</h1>
+        <p class="hero-subtitle">Vous avez une idée ? Décrivez-la, on l'étudie avec l'équipe.</p>
+      </div>
+    </section>
+
+    <section class="content-block">
+      <div class="container container-narrow">
+        <form id="proposal-form" class="form" novalidate>
+          <div class="form-group">
+            <label for="titre">Titre de l'événement</label>
+            <input type="text" id="titre" name="titre" required>
+          </div>
+
+          <div class="form-group">
+            <label for="date-souhaitee">Date souhaitée</label>
+            <input type="date" id="date-souhaitee" name="date-souhaitee" required>
+          </div>
+
+          <div class="form-group">
+            <label for="lieu">Lieu envisagé</label>
+            <input type="text" id="lieu" name="lieu">
+          </div>
+
+          <div class="form-group">
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-email">Votre email</label>
+            <input type="email" id="contact-email" name="contact-email" required>
+          </div>
+
+          <p id="form-feedback" class="form-feedback" hidden></p>
+
+          <button type="submit" class="btn btn-primary">Envoyer la proposition</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 CulturaConnect — Association culturelle fictive (projet DSP).</p>
+    </div>
+  </footer>
+
+  <script src="js/forms.js"></script>
+  <script src="js/nav.js"></script>
+</body>
+</html>
