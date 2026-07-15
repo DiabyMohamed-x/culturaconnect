@@ -1,0 +1,23 @@
+[
+  {
+    "id": "expo-lumieres-urbaines",
+    "titre": "Exposition — Lumières urbaines",
+    "date": "2026-08-02",
+    "lieu": "Salle des fêtes, place du Marché",
+    "description": "Une exposition photo consacrée à la vie nocturne en ville, portée par des artistes locaux."
+  },
+  {
+    "id": "concert-jeunes-talents",
+    "titre": "Concert — Jeunes talents",
+    "date": "2026-08-16",
+    "lieu": "Parc municipal",
+    "description": "Scène ouverte aux musiciens amateurs de l'association, tous styles confondus."
+  },
+  {
+    "id": "atelier-ceramique",
+    "titre": "Atelier — Initiation à la céramique",
+    "date": "2026-09-05",
+    "lieu": "Local associatif, 12 rue des Arts",
+    "description": "Atelier découverte animé par un céramiste bénévole, places limitées."
+  }
+]
