@@ -23,3 +23,9 @@ Reprise après une semaine d'arrêt. Ajout des pages internes (`apropos.html`, `
 
 ## 15/07 (mercredi)
 Ajout du cahier des charges (`docs/cahier-des-charges.md`) : contexte, public cible, fonctionnalités, contraintes techniques avec justification du choix du framework (vanilla) et des limites assumées du stockage JSON (pas d'indexation, pas de recherche optimisée, risque d'écriture concurrente).
+
+## 16/07 (jeudi)
+Délaissé — aucune avancée. Ce qui aurait pu être fait : commencer l'outil de supervision Python (`monitor.py`), au moins le check HTTP de base.
+
+## 17/07 (vendredi)
+Ajout de l'outil de supervision (`supervision/monitor.py`) : vérifie la disponibilité du site (code HTTP), le temps de réponse, l'espace disque et la mémoire, avec seuils d'alerte. Testé en conditions réelles contre le site en local : a immédiatement détecté une vraie alerte disque (94% utilisé, 5 Go libres). Nettoyage effectué (cache pip, conteneurs/build cache Docker inutilisés, caches applicatifs) : passage à 88% utilisé, 9,2 Go libres.
