@@ -29,3 +29,9 @@ Délaissé — aucune avancée. Ce qui aurait pu être fait : commencer l'outil 
 
 ## 17/07 (vendredi)
 Ajout de l'outil de supervision (`supervision/monitor.py`) : vérifie la disponibilité du site (code HTTP), le temps de réponse, l'espace disque et la mémoire, avec seuils d'alerte. Testé en conditions réelles contre le site en local : a immédiatement détecté une vraie alerte disque (94% utilisé, 5 Go libres). Nettoyage effectué (cache pip, conteneurs/build cache Docker inutilisés, caches applicatifs) : passage à 88% utilisé, 9,2 Go libres.
+
+## 18-19/07 (week-end)
+Pas de travail.
+
+## 20/07 (lundi)
+Ajout des scripts d'exploitation (`scripts/backup.sh`, `scripts/restore.sh`) + `.gitignore` (exclusion de `backups/`). Testé de bout en bout : sauvegarde du site en `.tar.gz`, suppression du dossier `site/`, restauration depuis l'archive — contenu identique retrouvé. Le message `tar: Suppression de « ../ »` lors de la sauvegarde est un simple avertissement de nettoyage de chemin relatif, pas une erreur.
