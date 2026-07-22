@@ -1,23 +1,34 @@
 [
   {
-    "id": "expo-lumieres-urbaines",
-    "titre": "Exposition — Lumières urbaines",
-    "date": "2026-08-02",
-    "lieu": "Salle des fêtes, place du Marché",
-    "description": "Une exposition photo consacrée à la vie nocturne en ville, portée par des artistes locaux."
+    "id": "expo-photo-quartier",
+    "titre": "Exposition photo : Mon quartier autrement",
+    "date": "2026-08-05",
+    "lieu": "Salle des fêtes, Aubervilliers",
+    "description": "Une exposition collective de photographies prises par des habitants du quartier, autour du thème du regard porté sur son environnement quotidien.",
+    "image": null
   },
   {
-    "id": "concert-jeunes-talents",
-    "titre": "Concert — Jeunes talents",
-    "date": "2026-08-16",
-    "lieu": "Parc municipal",
-    "description": "Scène ouverte aux musiciens amateurs de l'association, tous styles confondus."
+    "id": "concert-jazz-plein-air",
+    "titre": "Concert jazz en plein air",
+    "date": "2026-08-15",
+    "lieu": "Parc de la Villette",
+    "description": "Un trio de jazz local vient jouer en acoustique dans le parc, entrée libre, gradins improvisés bienvenus.",
+    "image": null
   },
   {
     "id": "atelier-ceramique",
-    "titre": "Atelier — Initiation à la céramique",
-    "date": "2026-09-05",
-    "lieu": "Local associatif, 12 rue des Arts",
-    "description": "Atelier découverte animé par un céramiste bénévole, places limitées."
+    "titre": "Atelier céramique découverte",
+    "date": "2026-08-22",
+    "lieu": "Atelier CulturaConnect, Paris 20e",
+    "description": "Initiation au tournage et au modelage, matériel fourni, places limitées à 10 participants.",
+    "image": null
+  },
+  {
+    "id": "cine-club-quartier",
+    "titre": "Ciné-club de quartier",
+    "date": "2026-09-03",
+    "lieu": "Médiathèque Jean-Cocteau",
+    "description": "Projection suivie d'un échange avec les spectateurs autour d'un film choisi par les adhérents du mois.",
+    "image": null
   }
 ]
