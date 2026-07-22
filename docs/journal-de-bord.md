@@ -35,3 +35,9 @@ Pas de travail.
 
 ## 20/07 (lundi)
 Ajout des scripts d'exploitation (`scripts/backup.sh`, `scripts/restore.sh`) + `.gitignore` (exclusion de `backups/`). Testé de bout en bout : sauvegarde du site en `.tar.gz`, suppression du dossier `site/`, restauration depuis l'archive — contenu identique retrouvé. Le message `tar: Suppression de « ../ »` lors de la sauvegarde est un simple avertissement de nettoyage de chemin relatif, pas une erreur.
+
+## 21/07 (mardi)
+Délaissé — aucune avancée. Ce qui aurait pu être fait : brancher `events.js` sur un vrai `fetch()` au lieu du stub, pour préparer l'ajout des deux nouveaux événements.
+
+## 22/07 (mercredi)
+Affichage dynamique des événements : `events.js` fait maintenant un vrai `fetch()` de `data/events.json`, utilisé sur 3 pages (aperçu accueil, liste complète `evenements.html`, détail `evenement.html?id=...`). Deux événements ajoutés au JSON (concert jazz en plein air, ciné-club de quartier), 4 au total. Testé de bout en bout : liste triée par date et page détail vérifiées visuellement en local.
